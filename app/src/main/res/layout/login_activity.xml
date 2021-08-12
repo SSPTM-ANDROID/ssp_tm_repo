@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/white"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_marginTop="80dp"
+    android:textAlignment="center"
+    android:layout_gravity="center"
+    android:layout_height="98dp"
+    android:src="@drawable/login_user"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="User Login"
+        android:textAlignment="center"
+        android:textColor="#1212D3"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/abril_fatface"
+    android:layout_marginBottom="8dp"
+    android:text="User Name"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    android:textColor="#D31249"
+    android:textSize="24sp"
+    android:textStyle="bold|italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/login_user"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:layout_marginBottom="8dp"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#D31249"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/login_pwd"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:background="#FBC02D"
+    android:fontFamily="cursive"
+    android:text="SignIn"
+    android:textColor="#1014D6"
+    android:id="@+id/signIn"
+    android:textSize="24sp"
+    android:textStyle="bold|italic"
+    android:typeface="monospace" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBC02D"
+        android:fontFamily="cursive"
+        android:id="@+id/signUp"
+        android:text="SignUp"
+        android:textColor="#1014D6"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace" />
+
+
+</LinearLayout>
